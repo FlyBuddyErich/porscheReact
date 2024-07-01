@@ -1,0 +1,99 @@
+.nav-page{
+    position: fixed;
+    color: gray;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    opacity: 0.6;
+}
+
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-bottom: 20px;
+    font-size: 15px;
+    gap: 150px;
+    z-index: 1;
+
+}
+
+.nav:hover .nav-menu-element   {
+    transform: translateY(10px);
+}
+
+
+.nav-menu-element {
+    transform: translateY(-25px);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.nav-menu-element:hover {
+    color: white;
+}
+
+.menu-icon {
+    position: fixed;
+    right: 45px;
+    margin-top: 10px;
+    width: 35px;
+    cursor: pointer;
+}
+
+.menu-icon:active .nav {
+    transform: translateY(25px);
+}
+
+
+.logo-container {
+    display: grid;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.6;
+    background-color: black;
+}
+
+.nav-logo {
+    font-family: "SK Porsche";
+    src: url("https://db.onlinewebfonts.com/t/1665ea47a0d67d9ffe5475ef41e9ef4a.eot");
+    src: url("https://db.onlinewebfonts.com/t/1665ea47a0d67d9ffe5475ef41e9ef4a.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/1665ea47a0d67d9ffe5475ef41e9ef4a.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/1665ea47a0d67d9ffe5475ef41e9ef4a.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/1665ea47a0d67d9ffe5475ef41e9ef4a.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/1665ea47a0d67d9ffe5475ef41e9ef4a.svg#SK Porsche")format("svg");
+    font-size: 30px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.porsche-logo {
+    max-width: 50%;
+    max-height: 20%;
+}
+
+@media screen and (max-width: 876px)  {
+    .nav-menu {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        margin-bottom: 20px;
+        font-size: 15px;
+        gap: 150px;
+        z-index: 1;
+        visibility: hidden;
+    
+    }
+}

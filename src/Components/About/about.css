@@ -1,0 +1,137 @@
+.about-page {
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+.about-container {
+    padding-left: 92px;
+    padding-right: 92px;
+    padding-top: 112px;
+    padding-bottom: 112px;
+}
+
+.media-container {
+    display: flex;
+    padding-top: 50px;
+    float: right;
+}
+
+.text-container {
+    display: flex;
+    flex-flow: column;
+}
+
+.media-container img {
+    overflow: clip;
+    object-fit: fill;
+    height: 400px;
+    width: 650px;
+}
+
+@media screen and (max-width: 876px)  {
+
+    .media-container img {
+        position: absolute;
+        object-fit: fill;
+        height: 175px;
+        width: 325px;
+        overflow-clip-margin: content-box;
+        overflow: clip;
+        top: 4230px;
+        right: 0px;
+        left: 35px;
+    }
+
+    .highline-bottom-btn {
+        margin-top: 70px;
+        padding: 14px 18px;
+        padding-left: 20px;
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: 300;
+        border-color: white;
+        border: 0.12rem solid;
+        border-radius: 3px;
+        transition: 0.3s;
+    }
+
+    .highline-bottom-btn img {
+        margin-left: 20px;
+        filter: brightness(0) invert(1);
+    }
+
+
+}
+
+.highlight-overline {
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 25px;
+}
+
+.highline-headline {
+    font-family: "DM Serif Display", serif;
+    font-size: 46px;
+    font-weight: 600;
+    transform: translateY(70px);
+    opacity: 0;
+}
+
+.highline-bottom {
+    margin-top: 300px;
+}
+
+
+.highline-bottom-btn {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    margin-top: 70px;
+    padding: 13px 13px;
+    padding-left: 20px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 300;
+    border-color: white;
+    border: 0.12rem solid;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+.highline-bottom-btn:hover {
+    backdrop-filter: invert(15%);
+}
+
+.highline-bottom-btn img {
+    margin-left: 10px;
+    filter: brightness(0) invert(1);
+}
+
+.arrow-icon {
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+}
+
+.highline-bottom-text {
+    margin-top: 35px;
+}
+
+.highline-bottom-legend-item{
+    display: block;
+    margin-block-start: 0.8em;
+    margin-block-end: 0.8em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 15px;
+}
+
+.icon-text {
+    display: inline-block;
+    margin-left: 0.5rem;
+    line-height: normal;
+    color: #696969;
+}
+

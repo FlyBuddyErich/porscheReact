@@ -1,0 +1,97 @@
+.explore-page {
+    margin-top: 150px;
+    background-color: #fff;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.explore-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;  
+}
+
+
+
+
+@media screen and (max-width: 876px)  {
+
+    .explore-page {
+        margin-top: 150px;
+        background-color: #fff;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+.explore-container {
+    display: grid;
+    grid-template-columns: (1fr, 1fr);
+    grid-column-gap: 25px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.explore-objects {
+    margin-bottom: 15px;
+    
+}
+
+.mobile-margin-bottom {
+    background-color: white;
+    margin-bottom: 100px;
+}
+}
+
+.explore-page-animated-text {
+    transform: translateY(70px);
+    opacity: 0;
+}
+
+.explore-page h1 {
+    font-family: "DM Serif Display", serif;
+    padding: 40px;
+    font-size: 46px;
+    padding-top: 60px;
+}
+
+.explore-container img {
+    border-radius: 10px;
+    margin-top: 30px;
+    object-fit: cover;
+    height: 476px;  
+    width: 276px;
+    transition: 0.5s;
+    
+}
+
+.explore-container img:hover {
+    transform: scale(1.05);
+}
+
+.explore-objects {
+    flex-basis: 31%;
+    margin-top: 50px;
+    
+}
+
+.explore-objects h2 {
+    font-size: 20px;
+}
+
+.explore-objects h4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.explore-description-add {
+    transform: translateX(-20px);
+}

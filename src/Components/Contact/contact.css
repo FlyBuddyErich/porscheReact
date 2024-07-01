@@ -1,0 +1,194 @@
+.contact-page {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: none;
+}
+
+
+.contact-container-main {
+    padding-left: 92px;
+    padding-right: 92px;
+    padding-top: 112px;
+    padding-bottom: 112px;
+    text-align: left;
+}
+
+.porsche-image {
+    position: absolute;
+    top: 3050px;
+    right: -500px;
+    width: 1200px;
+}
+
+
+.highline-text {
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    font-size: 46px;
+    font-weight: 600;
+    transform: translateY(70px);
+    opacity: 0;
+}
+
+.highline-preown-text {
+    opacity: 0;
+    margin-top: 200px;
+    font-size: 46px;
+    transform: translateX(-40px);
+    margin-right: 10px;
+}
+
+.highline-desription-text{
+    opacity: 0;
+    font-size: 32px;
+    margin-top: 40px;
+    transform: translateX(-40px);
+    margin-right: 10px;
+}
+
+.contact-adds {
+    margin-right: 10px;
+    margin-top: 120px;
+    font-size: 20px;
+}
+
+.wrapper {
+    margin-top: 15px;
+    display: block;
+    box-sizing: border-box;
+    border: 2px solid rgb(107, 109, 112);
+    border-radius: 5px;
+    width: 360px;
+    height: 55px;
+}
+
+.wrapper img {
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 15px;
+    height: 18px;
+}
+
+
+.search-box {
+    display: inline-block;
+    font-size: 18px;
+    outline: none;
+    padding-left: 20px;
+    border: none;
+    width: 310px;
+}
+
+
+.search-box::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    height: 1.2em;
+    width: 1.2em;
+    background: url(https://cdn.iconscout.com/icon/free/png-512/free-close-3660924-3095344.png?f=webp&w=256);
+    background-size: contain;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.search-box:focus::-webkit-search-cancel-button {
+    opacity: 1;
+    pointer-events: all;
+  }
+
+  @media screen and (max-width: 876px) {
+    .contact-page {
+        height: 100%;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        padding: none;
+    }
+
+    .highline-preown-text {
+        margin-top: 100px;
+        font-size: 46px;
+    }
+
+    .highline-desription-text{
+        font-size: 28px;
+        margin-top: 40px;
+    }
+
+    .porsche-image {
+        position: absolute;
+        top: 5375px;
+        right: -350px;
+        width: 600px;
+    }
+
+    .contact-adds {
+        margin-top: 200px;
+        font-size: 20px;
+    }
+
+    .search-box {
+        display: inline-block;
+        font-size: 16px;
+        outline: none;
+        padding-left: 20px;
+        border: none;
+        width: 210px;
+    }
+
+    .wrapper {
+        margin-top: 20px;
+        display: block;
+        box-sizing: border-box;
+        border: 2px solid rgb(107, 109, 112);
+        border-radius: 5px;
+        width: 250px;
+        height: 55px;
+    }  
+  }
+  
+  @media screen and (min-width: 376px) {
+    .porsche-image {
+        position: absolute;
+        top: 5550px;
+        right: -350px;
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 476px) {
+    .porsche-image {
+        position: absolute;
+        top: 5375px;
+        right: -350px;
+        width: 600px;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    .porsche-image {
+        position: absolute;
+        top: 5175px;
+        right: -350px;
+        width: 600px;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .porsche-image {
+        position: absolute;
+        top: 3675px;
+        right: -350px;
+        width: 600px;
+    }
+}
+
+@media screen and (min-width: 1800px){
+    .porsche-image {
+        position: absolute;
+        top: 3075px;
+        right: -550px;
+        width: 1200px;
+    }
+}
